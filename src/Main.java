@@ -5,13 +5,20 @@ public class Main {
     {
         Scanner input = new Scanner(System.in);
 
-        int num = 0;
+        int num1 = 0;
+        int num2 = 0;
+        int suma = 0;
 
-        System.out.println("Introdueix un numero: ");
-        num = input.nextInt();
+        System.out.println("Introdueix el primer numero: ");
+        num1 = input.nextInt();
+        System.out.println("Introdueix el segon numero: ");
+        num2 = input.nextInt();
+        suma = num1 + num2;
+        System.out.println("Has puesto els numeros: " + num1 + " " + num2);
+        System.out.println("La suma dona: " + suma);
 
-        System.out.println("Has puesto el numero" + num);
 
-    // 4t modificación
+
+        // 4t modificación
     }
 }
